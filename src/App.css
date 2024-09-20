@@ -27,32 +27,38 @@ nav ul li a {
 
 .hero {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 20px;
   background-color: #eef2f5;
+  height: 38vh; /* Αυξάνει το ύψος ώστε η ενότητα να έχει περισσότερο χώρο */
 }
 
 .hero-text {
-  max-width: 50%;
+  max-width: 60%; /* Περιορίζει το πλάτος του κειμένου */
+  margin-bottom: 20px; /* Κενό κάτω από το κείμενο */
 }
 
 .cta-button {
   background-color: #ff6f61;
   color: white;
-  padding: 1px 20px;
+  padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
 }
-
 .hero-image img {
   max-width: 100%;
   height: 150px;
 }
 
+/* Services Section Enlarged */
 .services {
   text-align: center;
-  padding: 40px 20px;
+  padding: 60px 20px; /* Increased padding */
+  background-color: #f4f6f9;
+  min-height: 6vh; /* Ensures the services section takes up more space */
 }
 
 .service-cards {
@@ -61,12 +67,75 @@ nav ul li a {
   gap: 20px;
 }
 
+/* Κοντέινερ κάρτας με εφέ αναστροφής */
 .card {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
+  background-color: transparent;
+  width: 250px;
+  height: 350px;
+  perspective: 1000px; /* Προσθέτει βάθος στην κάρτα */
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d; /* Ενεργοποιεί την 3D αναστροφή */
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg); /* Αναστροφή της κάρτας κατά 180 μοίρες */
+}
+
+/* Μπροστινή και πίσω πλευρά */
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Κρύβει την πίσω πλευρά όταν δεν είναι ενεργή */
+  border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 200px;
+}
+
+/* Μπροστινή πλευρά με την εικόνα */
+.card-front {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Κρύβει τυχόν υπερχειλίσεις */
+  border-radius: 10px;
+}
+
+.card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Η εικόνα καλύπτει πλήρως την κάρτα χωρίς παραμορφώσεις */
+  border-radius: 10px;
+}
+
+/* Πίσω πλευρά με τις πληροφορίες */
+.card-back {
+  background-color: #fff;
+  color: black;
+  transform: rotateY(180deg); /* Αναστροφή της πίσω πλευράς */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.card-back h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.card-back p {
+  font-size: 16px;
 }
 
 footer {

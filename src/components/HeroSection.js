@@ -6,10 +6,8 @@ const HeroSection = () => {
       <div className="hero-text">
         <h1>Βοηθάμε Κατοικίδια που Χρειάζονται Βοήθεια</h1>
         <p>Είμαστε εδώ για να φροντίσουμε τους αγαπημένους σας φίλους.</p>
-        <a href="#" className="cta-button">
-          Ζητήστε Βοήθεια
-        </a>
       </div>
+
       <div className="hero-image">
         <img
           src="black_dog_paw_transparent.png
