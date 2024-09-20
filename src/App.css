@@ -33,7 +33,7 @@ nav ul li a {
   text-align: center;
   padding: 20px;
   background-color: #eef2f5;
-  height: 38vh; /* Αυξάνει το ύψος ώστε η ενότητα να έχει περισσότερο χώρο */
+  height: 35vh; /* Αυξάνει το ύψος ώστε η ενότητα να έχει περισσότερο χώρο */
 }
 
 .hero-text {
