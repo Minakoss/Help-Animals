@@ -12,7 +12,7 @@ const Navbar = () => {
           <Link to="/about">Σχετικά με εμάς</Link>
         </li>
         <li>
-          <Link to="/">Υπηρεσίες</Link>
+          <Link to="/adoption">Βρείτε κατοικίδιο</Link>
         </li>
         <li>
           <Link to="/actions">Δράσεις</Link> {/* Νέα διαδρομή */}

@@ -6,7 +6,8 @@ import Services from "./components/Services";
 import Footer from "./components/Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Actions from "./pages/Actions"; // Νέα εισαγωγή
+import Actions from "./pages/Actions";
+import Adoption from "./pages/Adoption";
 import "./App.css";
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
           />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/actions" element={<Actions />} /> {/* Νέα διαδρομή */}
+          <Route path="/actions" element={<Actions />} />
+          <Route path="/adoption" element={<Adoption />} />
         </Routes>
         <Footer />
       </div>

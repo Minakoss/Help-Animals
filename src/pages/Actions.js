@@ -32,7 +32,7 @@ const Actions = () => {
           </div>
 
           <div className="action-card">
-            <img src="https://via.placeholder.com/300x200" alt="Υιοθεσίες" />
+            <img src="dog_1.jpg" alt="Υιοθεσίες" />
             <h3>Προγράμματα Υιοθεσίας</h3>
             <p>
               Παρέχουμε πλατφόρμα για την υιοθεσία κατοικιδίων και

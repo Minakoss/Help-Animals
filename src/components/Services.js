@@ -66,7 +66,7 @@ const Services = () => {
         <div className="card">
           <div className="card-inner">
             <div className="card-front">
-              <img src="volunteer.webp" alt="Τροφές & Εφόδια για Κατοικίδια" />
+              <img src="volunteer.jpg" alt="Τροφές & Εφόδια για Κατοικίδια" />
             </div>
             <div className="card-back">
               <div>

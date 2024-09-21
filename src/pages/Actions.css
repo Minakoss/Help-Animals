@@ -1,5 +1,5 @@
 .actions-section {
-  padding: 40px 20px;
+  padding: 140px 20px;
   background-color: #eef2f5;
 }
 
@@ -30,13 +30,14 @@ p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 300px;
   padding: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .action-card img {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 15px;
+  height: 173px;
 }
 
 .action-card h3 {
