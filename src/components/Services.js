@@ -63,6 +63,19 @@ const Services = () => {
             </div>
           </div>
         </div>
+        <div className="card">
+          <div className="card-inner">
+            <div className="card-front">
+              <img src="volunteer.webp" alt="Τροφές & Εφόδια για Κατοικίδια" />
+            </div>
+            <div className="card-back">
+              <div>
+                <h3>Εθελοντικη δράση</h3>
+                <p>Αναζητάτε έναν τετράποδο φίλο; Θέλετε να βοηθήσετε;</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
