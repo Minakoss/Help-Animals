@@ -1,20 +1,24 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav>
       <ul>
         <li>
-          <a href="#">Αρχική</a>
+          <Link to="/">Αρχική</Link>
         </li>
         <li>
-          <a href="/about">Σχετικά με εμάς</a>
+          <Link to="/about">Σχετικά με εμάς</Link>
         </li>
         <li>
-          <a href="#">Υπηρεσίες</a>
+          <Link to="/">Υπηρεσίες</Link>
         </li>
         <li>
-          <a href="/contact">Επικοινωνία</a>
+          <Link to="/actions">Δράσεις</Link> {/* Νέα διαδρομή */}
+        </li>
+        <li>
+          <Link to="/contact">Επικοινωνία</Link>
         </li>
       </ul>
     </nav>
