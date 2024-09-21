@@ -8,13 +8,13 @@ const Navbar = () => {
           <a href="#">Αρχική</a>
         </li>
         <li>
-          <a href="#">Σχετικά με εμάς</a>
+          <a href="/about">Σχετικά με εμάς</a>
         </li>
         <li>
           <a href="#">Υπηρεσίες</a>
         </li>
         <li>
-          <a href="#">Επικοινωνία</a>
+          <a href="/contact">Επικοινωνία</a>
         </li>
       </ul>
     </nav>
