@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Actions from "./pages/Actions";
 import Adoption from "./pages/Adoption";
+import Filozoikes from "./pages/Filozoikes";
 import "./App.css";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/actions" element={<Actions />} />
           <Route path="/adoption" element={<Adoption />} />
+          <Route path="/filozoikies" element={<Filozoikes />} />
         </Routes>
         <Footer />
       </div>

@@ -18,6 +18,9 @@ const Navbar = () => {
           <Link to="/actions">Δράσεις</Link> {/* Νέα διαδρομή */}
         </li>
         <li>
+          <Link to="/filozoikes">Φιλοζωικές</Link> {/* Νέα διαδρομή */}
+        </li>
+        <li>
           <Link to="/contact">Επικοινωνία</Link>
         </li>
       </ul>
