@@ -63,10 +63,32 @@ nav ul li a {
 
 .service-cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
+/* Κάρτες - Η default εμφάνιση (π.χ. για μεγάλες οθόνες) */
+.adoption-card {
+  flex: 1 1 calc(33.33% - 20px); /* 3 στήλες */
+  max-width: calc(33.33% - 20px);
+  box-sizing: border-box;
+}
 
+/* Προσαρμογή για tablet (μέχρι 768px) */
+@media (max-width: 768px) {
+  .adoption-card {
+    flex: 1 1 calc(50% - 20px); /* 2 στήλες */
+    max-width: calc(50% - 20px);
+  }
+}
+
+/* Προσαρμογή για κινητά (μέχρι 576px) */
+@media (max-width: 576px) {
+  .adoption-card {
+    flex: 1 1 100%; /* 1 στήλη */
+    max-width: 100%;
+  }
+}
 /* Κοντέινερ κάρτας με εφέ αναστροφής */
 .card {
   background-color: transparent;
