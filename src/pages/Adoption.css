@@ -72,3 +72,23 @@
     grid-template-columns: 1fr; /* 1 κάρτα ανά σειρά */
   }
 }
+/* Στοίχιση του κουμπιού στα δεξιά */
+.ad-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ad-post-button {
+  background-color: #4392e6; /* Μπλε χρώμα */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ad-post-button:hover {
+  background-color: #0056b3; /* Σκούρο μπλε στο hover */
+}

@@ -317,6 +317,10 @@ const Adoption = () => {
           </div>
         </div>
       </div>
+      {/* Κουμπί Καταχώρησης Αγγελίας */}
+      <div className="ad-button-container">
+        <button className="ad-post-button">Καταχώρηση Αγγελίας</button>
+      </div>
     </section>
   );
 };
