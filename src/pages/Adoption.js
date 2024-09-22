@@ -2,39 +2,6 @@ import React from "react";
 import "./Adoption.css";
 
 const Adoption = () => {
-  const images = [
-    {
-      src: "adopt.jpg",
-      title: "Υγειονομική Βοήθεια",
-      desc: "Κτηνιατρική φροντίδα.",
-    },
-    {
-      src: "dog_1.jpg",
-      title: "Υιοθεσία Κατοικιδίων",
-      desc: "Βρείτε το ιδανικό κατοικίδιο.",
-    },
-    {
-      src: "image3.jpg",
-      title: "Τροφές & Εφόδια",
-      desc: "Ποιοτική τροφή και απαραίτητα εφόδια.",
-    },
-    {
-      src: "image4.jpg",
-      title: "Εθελοντισμός",
-      desc: "Βοηθήστε στη φροντίδα των ζώων.",
-    },
-    {
-      src: "image5.jpg",
-      title: "Δράσεις",
-      desc: "Συμμετοχή σε δράσεις ευαισθητοποίησης.",
-    },
-    {
-      src: "image6.jpg",
-      title: "Προστασία",
-      desc: "Παροχή ασφαλούς περιβάλλοντος.",
-    },
-  ];
-
   return (
     <section className="adoption-services">
       <h2>Υιοθεσία Κατοικιδίων</h2>
