@@ -9,13 +9,12 @@ h2 {
 }
 
 .carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Center the carousel vertically */
-  background-color: #f9f9f9; /* Example background color */
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
 .carousel .slide img {
+  display: block;
   width: 100%;
   height: auto;
   object-fit: cover;

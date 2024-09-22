@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Actions from "./pages/Actions";
 import Adoption from "./pages/Adoption";
 import Filozoikes from "./pages/Filozoikes";
+
 import "./App.css";
 
 function App() {
