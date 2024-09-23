@@ -4,6 +4,7 @@
   justify-content: center; /* Κεντράρισμα των κουτιών οριζόντια */
   align-items: center; /* Κεντράρισμα των κουτιών κάθετα */
   height: 100vh; /* Ύψος όλης της σελίδας για να το κεντράρουμε */
+  background-color: #eef2f5;
 }
 
 .about-grid {
