@@ -1,7 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Adoption.css";
 
 const Adoption = () => {
+  const navigate = useNavigate(); // Χρησιμοποιούμε το useNavigate για πλοήγηση
+
+  const handlePostAdClick = () => {
+    navigate("/adoptionform"); // Η διαδρομή για τη φόρμα υιοθεσίας
+  };
+
   return (
     <section className="adoption-services">
       <h2>Υιοθεσία Κατοικιδίων</h2>
@@ -319,7 +326,9 @@ const Adoption = () => {
       </div>
       {/* Κουμπί Καταχώρησης Αγγελίας */}
       <div className="ad-button-container">
-        <button className="ad-post-button">Καταχώρηση Αγγελίας</button>
+        <button className="ad-post-button" onClick={handlePostAdClick}>
+          Καταχώρηση Αγγελίας
+        </button>
       </div>
     </section>
   );

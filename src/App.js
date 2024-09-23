@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Actions from "./pages/Actions";
 import Adoption from "./pages/Adoption";
 import Filozoikes from "./pages/Filozoikes";
+import AdoptionForm from "./pages/AdoptionForm";
 
 import "./App.css";
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/actions" element={<Actions />} />
           <Route path="/adoption" element={<Adoption />} />
           <Route path="/filozoikies" element={<Filozoikes />} />
+          <Route path="/adoptionform" element={<AdoptionForm />} />
         </Routes>
         <Footer />
       </div>

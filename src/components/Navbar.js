@@ -15,10 +15,10 @@ const Navbar = () => {
           <Link to="/adoption">Βρείτε κατοικίδιο</Link>
         </li>
         <li>
-          <Link to="/actions">Δράσεις</Link> {/* Νέα διαδρομή */}
+          <Link to="/actions">Δράσεις</Link>
         </li>
         <li>
-          <Link to="/filozoikes">Φιλοζωικές</Link> {/* Νέα διαδρομή */}
+          <Link to="/filozoikes">Φιλοζωικές</Link>
         </li>
         <li>
           <Link to="/contact">Επικοινωνία</Link>
