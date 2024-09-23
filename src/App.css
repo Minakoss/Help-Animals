@@ -67,12 +67,13 @@ nav ul li a {
   justify-content: center;
   gap: 20px;
 }
-/* Κάρτες - Η default εμφάνιση (π.χ. για μεγάλες οθόνες) */
-.adoption-card {
-  flex: 1 1 calc(33.33% - 20px); /* 3 στήλες */
+/* Κάρτες - Η default εμφάνιση (π.χ. για μεγάλες οθόνες) 
+.adoption-card1 {
+  flex: 1 1 calc(33.33% - 20px); 3 στήλες 
   max-width: calc(33.33% - 20px);
   box-sizing: border-box;
 }
+*/
 
 /* Προσαρμογή για tablet (μέχρι 768px) */
 @media (max-width: 768px) {

@@ -18,22 +18,22 @@ const Filozoikes = () => {
           centerSlidePercentage={33.33}
         >
           <div>
-            <img src="/images/filozoiki1.jpg" alt="Φιλοζωική Ομάδα 1" />
+            <img src="/filozoikes/filoz1.jpg" alt="Φιλοζωική Ομάδα 1" />
           </div>
           <div>
-            <img src="/images/filozoiki2.jpg" alt="Φιλοζωική Ομάδα 2" />
+            <img src="/filozoikes/filoz2.png" alt="Φιλοζωική Ομάδα 2" />
           </div>
           <div>
-            <img src="/images/filozoiki3.jpg" alt="Φιλοζωική Ομάδα 3" />
+            <img src="/filozoikes/filoz3.png" alt="Φιλοζωική Ομάδα 3" />
           </div>
           <div>
-            <img src="/images/filozoiki4.jpg" alt="Φιλοζωική Ομάδα 4" />
+            <img src="/filozoikes/filoz4.png" alt="Φιλοζωική Ομάδα 4" />
           </div>
           <div>
-            <img src="/images/filozoiki5.jpg" alt="Φιλοζωική Ομάδα 5" />
+            <img src="/filozoikes/filoz5.jpg" alt="Φιλοζωική Ομάδα 5" />
           </div>
           <div>
-            <img src="/images/filozoiki6.jpg" alt="Φιλοζωική Ομάδα 6" />
+            <img src="/filozoikes/filoz6.jpg" alt="Φιλοζωική Ομάδα 6" />
           </div>
         </Carousel>
       </div>

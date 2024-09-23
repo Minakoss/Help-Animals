@@ -29,3 +29,7 @@ h2 {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
 }
+
+.carousel .slide {
+  min-height: 300px;
+}
