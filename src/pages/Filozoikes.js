@@ -21,10 +21,10 @@ const Filozoikes = () => {
             <img src="/filozoikes/filoz1.jpg" alt="Φιλοζωική Ομάδα 1" />
           </div>
           <div>
-            <img src="/filozoikes/filoz2.png" alt="Φιλοζωική Ομάδα 2" />
+            <img src="/filozoikes/filoz2.jpg" alt="Φιλοζωική Ομάδα 2" />
           </div>
           <div>
-            <img src="/filozoikes/filoz3.png" alt="Φιλοζωική Ομάδα 3" />
+            <img src="/filozoikes/filoz3.jpg" alt="Φιλοζωική Ομάδα 3" />
           </div>
           <div>
             <img src="/filozoikes/filoz4.png" alt="Φιλοζωική Ομάδα 4" />
@@ -35,7 +35,29 @@ const Filozoikes = () => {
           <div>
             <img src="/filozoikes/filoz6.jpg" alt="Φιλοζωική Ομάδα 6" />
           </div>
+          <div>
+            <img src="/filozoikes/filoz7.jpg" alt="Φιλοζωική Ομάδα 6" />
+          </div>
+          <div>
+            <img src="/filozoikes/filoz8.jpg" alt="Φιλοζωική Ομάδα 6" />
+          </div>
+          <div>
+            <img src="/filozoikes/filoz9.jpg" alt="Φιλοζωική Ομάδα 6" />
+          </div>
+          <div>
+            <img src="/filozoikes/filoz10.jpg" alt="Φιλοζωική Ομάδα 6" />
+          </div>
+          <div>
+            <img src="/filozoikes/filoz11.png" alt="Φιλοζωική Ομάδα 6" />
+          </div>
+          <div>
+            <img src="/filozoikes/filoz12.jpg" alt="Φιλοζωική Ομάδα 6" />
+          </div>
         </Carousel>
+      </div>
+      {/* Κουμπί Καταχώρησης Αγγελίας */}
+      <div className="ad-button-container">
+        <button className="ad-post-button">Λίστα φιλοζωικών</button>
       </div>
     </section>
   );

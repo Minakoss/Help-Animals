@@ -25,33 +25,6 @@ nav ul li a {
   color: #333;
 }
 
-/* Default εμφάνιση για desktop */
-.navbar {
-  display: flex;
-  list-style: none;
-  justify-content: space-around;
-  padding: 0;
-}
-
-.navbar-item {
-  display: block;
-}
-
-/* Εφαρμογή για κινητά */
-@media (max-width: 768px) {
-  .navbar-item {
-    display: none; /* Κρύβουμε όλα τα items αρχικά */
-  }
-
-  /* Εμφάνιση μόνο των συγκεκριμένων items */
-  .navbar-item:nth-child(3), /* Βρείτε κατοικίδιο */
-  .navbar-item:nth-child(5), /* Φιλοζωικές */
-  .navbar-item:nth-child(6) {
-    /* Επικοινωνία */
-    display: block;
-  }
-}
-
 .hero {
   display: flex;
   flex-direction: column;
@@ -60,7 +33,7 @@ nav ul li a {
   text-align: center;
   padding: 20px;
   background-color: #eef2f5;
-  height: 35vh; /* Αυξάνει το ύψος ώστε η ενότητα να έχει περισσότερο χώρο */
+  height: 38vh; /* Αυξάνει το ύψος ώστε η ενότητα να έχει περισσότερο χώρο */
 }
 
 .hero-text {

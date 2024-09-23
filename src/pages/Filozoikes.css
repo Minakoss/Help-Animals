@@ -18,6 +18,7 @@ h2 {
   width: 100%;
   height: auto;
   object-fit: cover;
+  margin-top: 170px;
 }
 
 .carousel .control-dots .dot {
@@ -28,8 +29,4 @@ h2 {
 .carousel .control-next.control-arrow {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
-}
-
-.carousel .slide {
-  min-height: 300px;
 }
