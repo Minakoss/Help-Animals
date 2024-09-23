@@ -4,7 +4,7 @@ import "./About.css";
 const About = () => {
   return (
     <section className="about-section">
-      <div className="about-container">
+      <div className="about-grid">
         <div className="about-item">
           <h1>Σχετικά με Εμάς</h1>
           <p>
