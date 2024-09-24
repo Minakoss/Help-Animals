@@ -10,6 +10,8 @@ import Actions from "./pages/Actions";
 import Adoption from "./pages/Adoption";
 import Filozoikes from "./pages/Filozoikes";
 import AdoptionForm from "./pages/AdoptionForm";
+import List from "./pages/List";
+import Vets from "./pages/Vets";
 
 import "./App.css";
 
@@ -34,6 +36,8 @@ function App() {
           <Route path="/adoption" element={<Adoption />} />
           <Route path="/filozoikes" element={<Filozoikes />} />
           <Route path="/adoptionform" element={<AdoptionForm />} />
+          <Route path="/list" element={<List />} />
+          <Route path="/vets" element={<Vets />} />
         </Routes>
         <Footer />
       </div>

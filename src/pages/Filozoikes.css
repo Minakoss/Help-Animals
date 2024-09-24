@@ -30,3 +30,22 @@ h2 {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
 }
+.ad-button-container {
+  margin: 10px;
+  display: inline-block;
+}
+
+.ad-post-button {
+  width: 200px; /* Ίδιο πλάτος */
+  height: 50px; /* Ίδιο ύψος */
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ad-post-button:hover {
+  background-color: #45a049; /* Hover effect */
+}

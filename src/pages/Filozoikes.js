@@ -1,5 +1,6 @@
 import React from "react";
 import "./Filozoikes.css";
+import { Link } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import carousel styles
 
@@ -57,7 +58,14 @@ const Filozoikes = () => {
       </div>
       {/* Κουμπί Καταχώρησης Αγγελίας */}
       <div className="ad-button-container">
-        <button className="ad-post-button">Λίστα φιλοζωικών</button>
+        <Link to="/list">
+          <button className="ad-post-button">Δείτε τη λίστα</button>
+        </Link>
+      </div>
+      <div className="ad-button-container">
+        <Link to="/vets">
+          <button className="ad-post-button">Κτηνίατρεια </button>
+        </Link>
       </div>
     </section>
   );
