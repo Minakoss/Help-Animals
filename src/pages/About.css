@@ -1,50 +1,49 @@
 .about-section {
-  padding: 20px;
-  display: flex;
-  justify-content: center; /* Κεντράρισμα των κουτιών οριζόντια */
-  align-items: center; /* Κεντράρισμα των κουτιών κάθετα */
-  height: 100vh; /* Ύψος όλης της σελίδας για να το κεντράρουμε */
-  background-color: #eef2f5;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  color: #666;
 }
 
 .about-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 στήλες */
-  grid-gap: 80px; /* Αυξημένο κενό μεταξύ των κουτιών */
-  justify-items: center; /* Κεντράρισμα κάθε κουτιού μέσα στο grid */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
 }
 
 .about-item {
-  width: 300px; /* Πλάτος του τετραγώνου */
-  height: 300px; /* Ύψος του τετραγώνου, ίσο με το πλάτος */
-  background-color: #f9f9f9;
-  padding: 20px;
+  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Κεντράρισμα του περιεχομένου μέσα στο κουτί */
-  text-align: center; /* Κεντράρισμα του κειμένου */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s;
 }
 
-.about-item h1 {
-  font-size: 20px;
-  margin-bottom: 10px;
+.about-item:hover {
+  transform: translateY(-10px);
+}
+
+.about-item h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
 }
 
 .about-item p {
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-/* Responsive προσαρμογή για κινητά */
-@media (max-width: 768px) {
-  .about-grid {
-    grid-template-columns: 1fr; /* 1 στήλη για μικρότερες οθόνες */
-  }
-
-  .about-item {
-    width: 250px; /* Μικρότερο πλάτος σε κινητά */
-    height: 250px; /* Ίσο ύψος με το πλάτος για να παραμείνει τετράγωνο */
-  }
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
 }
