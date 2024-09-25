@@ -59,7 +59,7 @@ const Filozoikes = () => {
       {/* Κουμπί Καταχώρησης Αγγελίας */}
       <div className="ad-button-container">
         <Link to="/list">
-          <button className="ad-post-button">Δείτε τη λίστα</button>
+          <button className="ad-post-button">Λίστα Φιλοζωικών</button>
         </Link>
       </div>
       <div className="ad-button-container">
