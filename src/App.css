@@ -16,12 +16,36 @@ body {
   text-align: center;
   padding: 20px;
   background-color: #eef2f5;
-  height: 38vh; /* Αυξάνει το ύψος ώστε η ενότητα να έχει περισσότερο χώρο */
+  height: auto;
+  min-height: 38vh; /* Ύψος για να υπάρχει περισσότερο χώρος */
 }
 
 .hero-text {
   max-width: 60%; /* Περιορίζει το πλάτος του κειμένου */
-  margin-bottom: 20px; /* Κενό κάτω από το κείμενο */
+  margin-bottom: 20px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 300px; /* Περιορίζει το μέγιστο πλάτος της εικόνας */
+  height: auto;
+}
+
+/* Responsive Styles για κινητές συσκευές */
+@media (max-width: 768px) {
+  .hero {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 90%; /* Επιτρέπει στο κείμενο να καταλαμβάνει περισσότερο χώρο */
+    margin-bottom: 10px;
+  }
+
+  .hero-image img {
+    max-width: 80%; /* Μειώνει το μέγεθος της εικόνας για μικρότερες οθόνες */
+  }
 }
 
 .cta-button {

@@ -3,6 +3,7 @@ import "./List.css";
 
 const List = () => {
   const [selectedGroup, setSelectedGroup] = useState(null);
+  const [searchTerm, setSearchTerm] = useState("");
 
   const filozoikes = [
     {
@@ -255,19 +256,38 @@ const List = () => {
     setSelectedGroup(null);
   };
 
+  // Φιλτράρισμα των ομάδων ανάλογα με τον όρο αναζήτησης
+  const filteredGroups = filozoikes.filter((group) =>
+    group.location.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <section className="list-section">
       <h1>Λίστα Φιλοζωικών Ομάδων</h1>
+
+      {/* Input για την αναζήτηση */}
+      <input
+        type="text"
+        placeholder="Αναζήτηση ανά περιοχή..."
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+        className="search-input"
+      />
+
       <div className="filozoikes-grid">
-        {filozoikes.map((group) => (
-          <div
-            key={group.id}
-            className="filozoiki-item"
-            onClick={() => handleGroupClick(group)}
-          >
-            {group.name}
-          </div>
-        ))}
+        {filteredGroups.length > 0 ? (
+          filteredGroups.map((group) => (
+            <div
+              key={group.id}
+              className="filozoiki-item"
+              onClick={() => handleGroupClick(group)}
+            >
+              {group.name}
+            </div>
+          ))
+        ) : (
+          <p>Δεν βρέθηκαν αποτελέσματα για την περιοχή "{searchTerm}"</p>
+        )}
       </div>
 
       {/* Modal */}

@@ -10,8 +10,7 @@ const HeroSection = () => {
 
       <div className="hero-image">
         <img
-          src="black_dog_paw_transparent.png
-        "
+          src="black_dog_paw_transparent.png"
           alt="Εικόνα φροντίδας κατοικίδιου"
         />
       </div>
