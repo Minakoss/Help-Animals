@@ -264,15 +264,16 @@ const List = () => {
   return (
     <section className="list-section">
       <h1>Λίστα Φιλοζωικών Ομάδων</h1>
-
       {/* Input για την αναζήτηση */}
-      <input
-        type="text"
-        placeholder="Αναζήτηση ανά περιοχή..."
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        className="search-input"
-      />
+      <div className="search-container">
+        <input
+          type="text"
+          placeholder="Αναζήτηση ανά περιοχή..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="search-bar"
+        />
+      </div>
 
       <div className="filozoikes-grid">
         {filteredGroups.length > 0 ? (
@@ -289,7 +290,6 @@ const List = () => {
           <p>Δεν βρέθηκαν αποτελέσματα για την περιοχή "{searchTerm}"</p>
         )}
       </div>
-
       {/* Modal */}
       {selectedGroup && (
         <div className="modal">
