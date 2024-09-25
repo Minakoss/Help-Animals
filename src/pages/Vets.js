@@ -8,27 +8,242 @@ const Vets = () => {
   const vets = [
     {
       id: 1,
-      name: "Φιλοζωική Ομάδα Αθήνας",
+      name: "Κτηνιατρικό κέντρο Γέρακα",
       region: "Αθήνα",
-      phone: "2101234567",
-      email: "info@athens-pets.gr",
-      image: "/images/athens-pet.jpg",
+      address: "Ερμού 8, Γαργηττός, 153 44 Γέρακας Αττικής ",
+      phone: "2117005677",
     },
     {
       id: 2,
-      name: "Φιλοζωική Ομάδα Θεσσαλονίκης",
-      region: "Θεσσαλονίκη",
-      phone: "2310123456",
-      email: "info@thessaloniki-pets.gr",
-      image: "/images/thessaloniki-pet.jpg",
+      name: "Δέρβα Αλεξάνδρα - Νίκη - Health Pets",
+      region: "Αθήνα",
+      address: "Αδελφών Πιερράκου 41, Άνω Ιλίσια, 157 71 Ζωγράφος Αττικής ",
+      phone: "2107794242",
+      mobile: "6942928817",
     },
     {
       id: 3,
-      name: "Φιλοζωική Ομάδα Πειραιά",
-      region: "Πειραιάς",
-      phone: "2107654321",
-      email: "info@piraeus-pets.gr",
-      image: "/images/piraeus-pet.jpg",
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
+    },
+    {
+      id: 3,
+      name: "Petworld",
+      region: "Αθήνα",
+      address: "Λεωφόρος Παπανδρέου Γεωργίου 45, 157 73 Ζωγράφος Αττικής  ",
+      phone: "2107782981",
+      mobile: "6932479168",
     },
     // Πρόσθεσε περισσότερες ομάδες αν χρειάζεται
   ];
@@ -93,14 +308,18 @@ const Vets = () => {
               alt={selectedVet.name}
               className="modal-image"
             />
+
             <p>
-              <strong>Όνομα:</strong> {selectedVet.name}
+              <strong>Διεύθυνση:</strong> {selectedVet.address}
+            </p>
+            <p>
+              <strong>Πόλη:</strong> {selectedVet.region}
             </p>
             <p>
               <strong>Τηλέφωνο:</strong> {selectedVet.phone}
             </p>
             <p>
-              <strong>Email:</strong> {selectedVet.email}
+              <strong>Κινητό:</strong> {selectedVet.mobile}
             </p>
             <button onClick={closeModal}>Κλείσιμο</button>
           </div>

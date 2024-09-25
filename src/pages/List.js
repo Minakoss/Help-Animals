@@ -12,7 +12,7 @@ const List = () => {
       phone: "2101234567",
       email: "info@filozoiki-athens.gr",
       image: "/images/filozoiki-athens.jpg",
-      location: "Αθήνα",
+      location: "Αθήνα , Ατιική",
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ const List = () => {
       phone: "",
       email: "adoptapawtoday@gmail.com , info@adoptapawtoday.gr",
       image: "/images/filozoiki-thessaloniki.jpg",
-      location: "Αττική-Νότια Προάστεια",
+      location: "Αττική-Νότια Προάστεια , Αθήνα",
     },
     {
       id: 3,
@@ -52,7 +52,7 @@ const List = () => {
       phone: "6986618430",
       email: "info@solidaritystray.gr",
       image: "/images/filozoiki-chalkida.jpg",
-      location: "Αττική-Βόρεια Προάστεια",
+      location: "Αττική-Βόρεια Προάστεια, Αθήνα",
     },
     {
       id: 7,
@@ -60,7 +60,7 @@ const List = () => {
       phone: "6986618430",
       email: "mariliatsopela@dogsvoice.gr",
       image: "/images/filozoiki-chalkida.jpg",
-      location: "Αττική- Κέντρο Αθήνας",
+      location: "Αττική - Κέντρο Αθήνας",
     },
     {
       id: 8,
@@ -76,7 +76,7 @@ const List = () => {
       phone: "6973043713",
       email: "venia33@yahoo.gr",
       image: "/images/filozoiki-chalkida.jpg",
-      location: "Αττική-Ανατολικά Προάστεια",
+      location: "Αττική-Ανατολικά Προάστεια, Αθήνα",
     },
     {
       id: 10,
@@ -84,7 +84,7 @@ const List = () => {
       phone: "6932578700",
       email: "animaidrescue@gmail.com",
       image: "/images/filozoiki-chalkida.jpg",
-      location: "Αττική-Δυτικά Προάστεια",
+      location: "Αττική-Δυτικά Προάστεια, Αθήνα",
     },
     {
       id: 11,
@@ -164,7 +164,7 @@ const List = () => {
       phone: "6982005800",
       email: "romianimalrescue@gmail.com",
       image: "/images/filozoiki-chalkida.jpg",
-      location: "Αττική-Νότια Προάστεια",
+      location: "Αττική-Νότια Προάστεια, Αθήνα",
     },
     {
       id: 21,
@@ -188,7 +188,7 @@ const List = () => {
       phone: "6985567216",
       email: "pefipomaroussi@gmail.com",
       image: "/images/filozoiki-chalkida.jpg",
-      location: "Αττική-Βόρεια Προάστεια",
+      location: "Αττική-Βόρεια Προάστεια, Αθήνα",
     },
     {
       id: 24,
@@ -196,7 +196,7 @@ const List = () => {
       phone: "2105715403",
       email: "makeitpawsible@yahoo.com",
       image: "/images/filozoiki-chalkida.jpg",
-      location: "Αττική-Δυτικά Προάστεια",
+      location: "Αττική-Δυτικά Προάστεια, Αθήνα",
     },
     {
       id: 25,
@@ -236,7 +236,7 @@ const List = () => {
       phone: "6979245356",
       email: "antie@theinvaluables.org",
       image: "/images/filozoiki-chalkida.jpg",
-      location: "Αττική-Νότια Προάστεια",
+      location: "Αττική-Νότια Προάστεια, Αθήνα",
     },
     {
       id: 30,
