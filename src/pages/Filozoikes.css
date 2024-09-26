@@ -46,3 +46,17 @@ h2 {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+@media screen and (max-width: 768px) {
+  .ad-button-container {
+    margin: 20px;
+  }
+
+  .ad-post-button {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carousel .slide img {
+    margin-top: 40px; /* Adjust the margin to move the carousel higher */
+  }
+}
