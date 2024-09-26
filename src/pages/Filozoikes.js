@@ -56,7 +56,7 @@ const Filozoikes = () => {
           </div>
         </Carousel>
       </div>
-      {/* Κουμπί Καταχώρησης Αγγελίας */}
+      {/* Κουμπί Λίστας  */}
       <div className="ad-button-container">
         <Link to="/list">
           <button className="ad-post-button">Λίστα Φιλοζωικών</button>

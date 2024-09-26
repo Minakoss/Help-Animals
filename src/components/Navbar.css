@@ -1,16 +1,17 @@
-/* Styling for the navigation menu */
+/*  navigation menu */
 .navbar {
   display: flex;
-  justify-content: center; /* Centers the navbar content */
-  align-items: center; /* Centers items vertically */
-  height: 100px; /* Adjust the height if needed */
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  position: relative;
 }
 
 .nav-links {
   display: flex;
   justify-content: center;
   list-style: none;
-  gap: 10px; /* Adjust the gap to make items closer */
+  gap: 10px;
 }
 
 .nav-links li {
@@ -19,17 +20,17 @@
 
 .nav-links li a {
   text-decoration: none;
-  padding: 10px 15px; /* Adjust padding for better appearance */
+  padding: 10px 15px;
   font-size: 18px;
   color: #333;
   transition: color 0.3s ease;
 }
 
 .nav-links li a:hover {
-  color: #007bff; /* Change this to the color you want on hover */
+  color: #007bff; /* hover color */
 }
 
-/* Hamburger menu styling */
+/* Hamburger menu  */
 .hamburger {
   display: none;
   cursor: pointer;
@@ -37,6 +38,8 @@
   justify-content: space-between;
   width: 30px;
   height: 25px;
+  position: absolute;
+  right: 20px;
 }
 
 .bar {
@@ -46,7 +49,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-/* Media queries to hide the normal navbar on mobile and show the hamburger */
+/* Media  normal navbar on mobile and show the hamburger */
 @media screen and (max-width: 768px) {
   .nav-links {
     display: none;
@@ -58,6 +61,7 @@
     background-color: #fff;
     text-align: center;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
   }
 
   .nav-links.open {

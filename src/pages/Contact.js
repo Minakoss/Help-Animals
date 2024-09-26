@@ -17,7 +17,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Εδώ μπορείς να προσθέσεις τη λειτουργικότητα για να στείλεις το μήνυμα
+
     console.log("Form submitted:", formData);
   };
 
