@@ -249,10 +249,9 @@ const Vets = () => {
       phone: "2107782981",
       mobile: "6932479168",
     },
-    // Πρόσθεσε περισσότερες ομάδες αν χρειάζεται
   ];
 
-  // Φιλτράρισμα των ομάδων ανάλογα με το αναζητούμενο κείμενο
+  // Φιλτράρισμα  ομάδων ανάλογα με το αναζητούμενο κείμενο
   const filteredVets = vets.filter((vet) =>
     vet.region.toLowerCase().includes(searchTerm.toLowerCase())
   );
