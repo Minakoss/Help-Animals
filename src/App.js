@@ -12,7 +12,6 @@ import Filozoikes from "./pages/Filozoikes";
 import AdoptionForm from "./pages/AdoptionForm";
 import List from "./pages/List";
 import Vets from "./pages/Vets";
-
 import "./App.css";
 
 function App() {

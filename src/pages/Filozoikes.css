@@ -31,7 +31,7 @@ h2 {
   border-radius: 50%;
 }
 .ad-button-container {
-  margin: 10px;
+  margin: 30px;
   display: inline-block;
 }
 
@@ -41,6 +41,7 @@ h2 {
   color: white;
   font-size: 16px;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
