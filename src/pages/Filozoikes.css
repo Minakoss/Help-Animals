@@ -36,6 +36,7 @@ h2 {
 }
 
 .ad-post-button {
+  margin-top: 50px;
   width: 200px; /* Ίδιο πλάτος */
   height: 50px; /* Ίδιο ύψος */
   color: white;

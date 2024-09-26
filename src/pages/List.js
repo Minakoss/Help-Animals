@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./List.css";
-
+import { Link } from "react-router-dom";
 const List = () => {
   const [selectedGroup, setSelectedGroup] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
@@ -312,6 +312,11 @@ const List = () => {
           </div>
         </div>
       )}
+      <div className="ad-button-container">
+        <Link to="/filozoikes">
+          <button className="ad-post-button">Επιστροφή</button>
+        </Link>
+      </div>
     </section>
   );
 };

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Vets.css";
+import { Link } from "react-router-dom";
 
 const Vets = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -334,6 +335,11 @@ const Vets = () => {
           </div>
         </div>
       )}
+      <div className="ad-button-container">
+        <Link to="/filozoikes">
+          <button className="ad-post-button">Επιστροφή</button>
+        </Link>
+      </div>
     </section>
   );
 };
