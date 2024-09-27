@@ -44,7 +44,7 @@
 /* Responsive για κινητές συσκευές */
 @media (max-width: 600px) {
   .filozoikes-grid {
-    grid-template-columns: repeat(2, 1fr); /* 1 φιλοζωική ανά γραμμή */
+    grid-template-columns: repeat(1, 1fr); /* 1 φιλοζωική ανά γραμμή */
     gap: 10px;
   }
 
