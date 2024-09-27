@@ -290,11 +290,7 @@ const Vets = () => {
               className="filozoiki-item"
               onClick={() => handleVetClick(group)}
             >
-              <img
-                src={group.image}
-                alt={group.name}
-                className="filozoiki-image"
-              />
+              {group.name}
             </div>
           ))
         ) : (
